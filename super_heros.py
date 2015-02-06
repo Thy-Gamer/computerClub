@@ -111,9 +111,9 @@ while len(p1Cards) > 0 and len(p2Cards) > 0:
         while len(pileCards) > 0:
             p1Cards.appendleft(pileCards.pop())
     elif p1Hero[attChoice] < p2Hero[attChoice]:
-        print "=" * len(p1Hero[0] + " defeated by " + p2Hero[0])
-        print "{0} defeated by {1}".format(p1Hero[0], p2Hero[0])
-        print "=" * len(p1Hero[0] + " defeated by " + p2Hero[0])
+        print "=" * len(p1Hero[0] + " was defeated by " + p2Hero[0])
+        print "{0} was defeated by {1}".format(p1Hero[0], p2Hero[0])
+        print "=" * len(p1Hero[0] + " was defeated by " + p2Hero[0])
         p2Cards.appendleft(p2HeroID)
         p2Cards.appendleft(p1HeroID)
 #Collect on table Pile of cards if required'
